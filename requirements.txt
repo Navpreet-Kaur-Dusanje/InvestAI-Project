@@ -1,0 +1,11 @@
+transformers
+datasets
+torch
+yfinance
+newsapi-python
+nltk
+matplotlib
+pandas
+scikit-learn
+evaluate
+streamlit
