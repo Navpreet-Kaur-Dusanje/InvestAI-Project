@@ -1,0 +1,40 @@
+# Virtual environment (InvestAI)
+InvestAI/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Environment and config
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# PyCharm/VSCode settings (optional but common)
+.vscode/
+.idea/
+
+# Logs and reports (if you generate any)
+*.log
+*.out
+
+# Model files and outputs (optional: only if generated artifacts don't need versioning)
+models/
+*.h5
+*.pkl
+*.pt
+
+# Data files (optional if raw/processed shouldn't be in repo)
+data/raw/
+data/processed/
+
+# Others
+*.sqlite3
+*.db
