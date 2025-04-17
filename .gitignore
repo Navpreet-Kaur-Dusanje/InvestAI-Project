@@ -1,40 +1,43 @@
-# Virtual environment (InvestAI)
+# Python virtual environment
 InvestAI/
 
-# Python cache files
+# Dataset caches and intermediary files
+data/cached_*.txt*
+data/processed/
+data/raw/
+
+# Model training outputs and checkpoints
+models/gpt2-finetuned/
+models/model.txt
+
+# Training logs, plots, and reports
+*.png
+*.txt
+*.log
+
+# Bytecode and Python cache
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*.so
 
-# Jupyter Notebook checkpoints (if used)
+# OS metadata
+.DS_Store
+
+# Environment files
+.env
+*.env
+
+# Jupyter/IPython
 .ipynb_checkpoints/
 
-# Environment and config
-.env
-
-# OS-specific
-.DS_Store
-Thumbs.db
-
-# PyCharm/VSCode settings (optional but common)
+# VS Code & IDE settings
 .vscode/
 .idea/
 
-# Logs and reports (if you generate any)
-*.log
-*.out
-
-# Model files and outputs (optional: only if generated artifacts don't need versioning)
-models/
-*.h5
-*.pkl
+# PyTorch / Transformers training artifacts
 *.pt
+*.pth
+*.bin
 
-# Data files (optional if raw/processed shouldn't be in repo)
-data/raw/
-data/processed/
-
-# Others
-*.sqlite3
-*.db
+# Lock files
+*.lock
